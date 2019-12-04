@@ -14,6 +14,7 @@ router.use(express.urlencoded({extended: true})); //We allow the data sent from 
 router.use(express.json()); //We include support for JSON that is coming from the client
 
 // Function to read in XML file and convert it to JSON
+
 function xmlFileToJs(filename, cb) {
   var filepath = path.normalize(path.join(__dirname, filename));
   fs.readFile(filepath, 'utf8', function(err, xmlStr) {
