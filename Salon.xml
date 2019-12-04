@@ -9,18 +9,7 @@
       <Client>Usama</Client>
       <Time>10:00</Time>
     </Details>
-    <Details>
-      <Client>asa</Client>
-      <Time>18:00-20:00</Time>
-    </Details>
-    <Details>
-      <Client>jsjsa</Client>
-      <Time>458</Time>
-    </Details>
-    <Details>
-      <Client>sdjsa</Client>
-      <Time>15:00</Time>
-    </Details>
+    
   </Days>
   <Days name="Tuesday">
     <Details service="makeup">
