@@ -13,7 +13,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <xsl:for-each select="/Salon/Days">
+                        <xsl:for-each select="/Appointents/Days">
                             <tr>
                                 <td colspan="3">
                                     <xsl:value-of select="@name" />
