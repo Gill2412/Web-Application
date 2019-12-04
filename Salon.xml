@@ -9,7 +9,6 @@
       <Client>Usama</Client>
       <Time>10:00</Time>
     </Details>
-    
   </Days>
   <Days name="Tuesday">
     <Details service="makeup">
@@ -38,6 +37,10 @@
       <Client>Andy</Client>
       <Time>14:00</Time>
     </Details>
+    <Details>
+      <Client>jjj</Client>
+      <Time>23:00</Time>
+    </Details>
   </Days>
   <Days name="Thursday">
     <Details service="waxing">
@@ -60,6 +63,10 @@
     </Details>
     <Details service="spray-tan">
       <Client>Sidu</Client>
+      <Time>15:00</Time>
+    </Details>
+  </Days>
+</Appointments>t>Sidu</Client>
       <Time>15:00</Time>
     </Details>
   </Days>

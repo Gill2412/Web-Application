@@ -20,12 +20,13 @@ function draw_table()
 
 function select_row()
 {
-	$("#Salon tbody tr[id]").click(function ()
+	$("#TableSalon tbody tr[id]").click(function ()
 	{
+        
 		$(".selected").removeClass("selected");
 		$(this).addClass("selected");
-		var section = $(this).prevAll("tr").children("td[colspan='3']").length - 1;
-		var entree = $(this).attr("id") - 1;
+		var Days = $(this).prevAll("tr").children("td[colspan='3']").length - 1;
+		var Details = $(this).attr("id") - 1;
 		delete_row(Days, Details);
 	})
 };
