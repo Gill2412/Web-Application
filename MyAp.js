@@ -63,7 +63,7 @@ router.post('/post/json', function(req, res) {
       //This is where you pass on information from the form inside index.html in a form of JSON and navigate through our JSON (XML) file to create a new entree object
       result.Appointments.Days[obj.sec_n].Details.push({'Client': obj.Client, 'Time': obj.Time}); //If your XML elements are differet, this is where you have to change to your own element names
       //Converting back to our original XML file from JSON
-      jsToXmlFile('PaddysCafe.xml', result, function(err) {
+      jsToXmlFile('Salon.xml', result, function(err) {
         if (err) console.log(err);
       })
     })
